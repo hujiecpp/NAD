@@ -19,7 +19,7 @@ The pretrained model can be download at [google driver](https://drive.google.com
 ```
 git clone https://github.com/hujiecpp/NAD
 ```
-2. Download ImageNet dataset and Place365 dataset and then modify the `NAD/tools/config.py`
+2. Download ImageNet dataset and Place365 dataset and then modify the `NAD/tools/config.py`. As for the Place365 dataset, use 'NAD/tools/make_dataset.py' to convert it to a suitable format.
 
 3. Find the path for all categories at network
 ```
